@@ -1,0 +1,9 @@
+Monday meeting notes
+
+not using Vref - since milestone 2 required this for temp accuracy - comment that 
+Vmult macro changed around - numerical = 0.0603
+
+changed I_LOW_MULTIPLIER to 0.01f calculated by (1/1000)*10
+and I_HIGH_MULTIPLIER to 0.0472f calc by (1/1000)*47.2 		- not confident in this value
+Reasoning: we scaled the mv to v (so bring mv values to v in code), then scale by the gain values 
+
